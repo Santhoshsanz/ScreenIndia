@@ -180,7 +180,7 @@ section:after {
 }
 .minNavBar{
   position: absolute;
-  height: 100vh;
+  height: 85vh;
   transition: 1s;
   left: -100;
 }
@@ -195,7 +195,7 @@ section:after {
   padding: 2px;
 }
 .minNavBar ul>li{
-  padding: 20px 0px 0px 0px !important;
+  padding: 20px 0px 10px 0px !important;
 }
 
 
@@ -221,7 +221,7 @@ section:after {
   margin-left: 50px;
   margin-right: 50px;
   padding-left: 10px;
-  min-height: 100vh;
+  min-height: 85vh;
 }
 .imgCaption{
   position: absolute;
@@ -268,7 +268,28 @@ ul{
 .infoWrapper{
   margin-top: 9rem;
     position: absolute;
+    width: 100%
 }
 .gallery h2{
   margin-bottom: 25px;
+}
+
+.infoWrapper h1,h2,h3,h4,h5,h6{
+  text-align: center;
+}
+
+.infoWrapper p{
+  text-align: justify;
+}
+.minNavBar i.fa{
+  font-size: 24px;
+}
+.companyWrapper{
+  min-height: 8rem;
+  max-height: 8rem;
+  margin:30px;
+}
+.companyWrapper img{
+  width: 100%;
+  height: 100%;
 }
